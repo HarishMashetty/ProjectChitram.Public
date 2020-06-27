@@ -1,0 +1,46 @@
+body, html, .main {
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 300;
+  height: 100%;
+}
+
+video {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  height: 100%;
+  min-height: 500px;
+  z-index: 0;
+  -ms-transform: translateX(-50%) translateY(-50%);
+  -moz-transform: translateX(-50%) translateY(-50%);
+  -webkit-transform: translateX(-50%) translateY(-50%);
+  transform: translateX(-50%) translateY(-50%);
+}
+
+.navbar-brand {
+  font-family: 'Permanent Marker' !important;
+  font-size: 170%;
+}
+
+.footer {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  z-index: 3;
+}
+
+.overlay-desc {
+  background: rgba(0,0,0,0);
+  color: #fff;
+  position: absolute;
+  top: 0; right: 0; bottom: 0; left: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.main {
+  background: #000;
+}
+
+/*# sourceMappingURL=/custom.f5491622.css.map */
